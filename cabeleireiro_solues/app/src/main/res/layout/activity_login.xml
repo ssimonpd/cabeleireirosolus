@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Cabelereiro \n Soluções"
+        android:textColor="#DCFBDD80"
+        android:textSize="70dp"
+        android:layout_marginTop="20dp"
+      />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/textButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:id="@+id/textButtoncadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cadastrar"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</LinearLayout>
